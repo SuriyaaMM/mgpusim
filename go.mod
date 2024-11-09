@@ -13,6 +13,8 @@ require (
 	gonum.org/v1/gonum v0.14.0
 )
 
+replace github.com/sarchlab/akita/v3 => ./akita
+
 require (
 	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/go-logr/logr v1.4.1 // indirect
