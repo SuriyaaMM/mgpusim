@@ -9,9 +9,9 @@ import (
 	"github.com/sarchlab/mgpusim/v3/samples/runner"
 )
 
-var numNode = flag.Int("node", 16, "The number of nodes")
-var sparsity = flag.Float64("sparsity", 0.001, "The sparsity of the graph")
-var maxIterations = flag.Int("iterations", 16, "The number of iterations")
+var numNode = flag.Int("node", 512, "The number of nodes")
+var sparsity = flag.Float64("sparsity", 0.5, "The sparsity of the graph")
+var maxIterations = flag.Int("iterations", 1, "The number of iterations")
 
 func main() {
 	flag.Parse()
